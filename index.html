@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario de Pe</title>
+    <style>
+        body {
+            margin: 0;
+            padding-top: 40px;
+            padding-bottom: 60px; /* Espacio al final de la página */
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .contenedor {
+            text-align: center;
+            max-width: 600px; /* Limita el ancho para que se lea cómodo */
+            margin: 0 auto; /* Centra todo el bloque en la pantalla */
+            padding: 0 20px;
+        }
+        .galeria-comics {
+            display: flex;
+            flex-direction: column; /* Pone las imágenes una debajo de otra */
+            gap: 15px; /* Espacio entre cada viñeta */
+            margin-top: 30px;
+        }
+        .viñeta {
+            width: 100%;
+            max-width: 400px; /* Tamaño máximo sugerido para tus dibujos de Paint */
+            height: auto;
+            margin: 0 auto; /* Centra la imagen si el contenedor es más ancho */
+            border: 2px solid #ddd; /* Un borde sutil para enmarcar el Paint */
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sombra suave */
+        }
+        .creditos {
+            margin-top: 40px;
+            font-size: 0.85em;
+            color: #777;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>diario de pe. copyright pablo supongo</h1>
+        
+        <!-- Tu tira cómica ordenada -->
+        <div class="galeria-comics">
+            <img src="historia1 webmanga (1).png" alt="Viñeta 1" class="viñeta">
+            <img src="historia1 webmanga (2).png" alt="Viñeta 2" class="viñeta">
+            <img src="historia1 webmanga (3)" alt="Viñeta 3" class="viñeta">
+            <img src="historia1 webmanga (4)" alt="Viñeta 4" class="viñeta">
+        </div>
+
+        <!-- El texto de crédito que mencionas -->
+        <p class="creditos">
+            Inspirado en los personajes de Flork. Proyecto escolar/personal sin fines de lucro.
+        </p>
+    </div>
+</body>
+</html>
